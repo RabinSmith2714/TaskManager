@@ -1471,7 +1471,7 @@ use App\Http\Controllers\userController;
             var formData = new FormData(this);
             $.ajax({
                 type: 'POST',
-                url: "/add/role",
+                url: "/add/role",   // default
                 data: formData,
                 contentType: false,
                 processData: false,
